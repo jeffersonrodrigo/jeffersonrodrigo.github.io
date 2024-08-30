@@ -1,0 +1,81 @@
+/* styles.css */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Garante que o body ocupe a altura total da tela */
+    display: flex;
+    flex-direction: column; /* Alinha os elementos na direção da coluna */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    flex: 1; /* Faz com que o container ocupe o espaço disponível */
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    margin-top: auto; /* Garante que o footer fique no final da página */
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#rodape {
+    padding: 20px;
+}
